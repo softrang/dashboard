@@ -1,6 +1,6 @@
 <?php
 
-namespace softrang\EcommerceDashboard\Database\Seeders;
+namespace softrang\Dashboard\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use App\Models\User;
@@ -11,7 +11,7 @@ class AdminSeeder extends Seeder
     public function run()
     {
         user::updateOrCreate([
-            'name' => 'softrang-ecommerce-dashboard',
+            'name' => 'softrang',
             'email' => 'info@softrang.com',
             'email_verified_at' => now(),
             'password' =>  Hash::make('1'),

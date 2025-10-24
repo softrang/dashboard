@@ -1,10 +1,10 @@
 <?php
 
-namespace softrang\EcommerceDashboard\Console;
+namespace softrang\Dashboard\Console;
 
 use Illuminate\Console\Command;
-use softrang\EcommerceDashboard\Database\Seeders\AdminSeeder;
-use softrang\EcommerceDashboard\Database\Seeders\CategorySeeder;
+use softrang\Dashboard\Database\Seeders\AdminSeeder;
+use softrang\Dashboard\Database\Seeders\CategorySeeder;
 
 class SeedDashboardCommand extends Command
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace softrang\EcommerceDashboard\Database\Seeders;
+namespace softrang\Dashboard\Database\Seeders;
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
